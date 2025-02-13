@@ -12,4 +12,11 @@ public class Square implements Shape {
   public double getArea() {
     return sideLen * sideLen;
   }
+
+  @Override
+  public void draw() {
+    // зурах функцууд
+
+    System.out.println("Sqaure зурсан.\nТалбай: " + getArea());
+  }
 }

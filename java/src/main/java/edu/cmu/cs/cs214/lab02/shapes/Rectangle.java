@@ -14,4 +14,11 @@ public class Rectangle implements Shape {
   public double getArea() {
     return height * width;
   }
+
+  @Override
+  public void draw() {
+    // зурах функцууд
+
+    System.out.println("Rectangle зурсан.\nТалбай: " + getArea());
+  }
 }

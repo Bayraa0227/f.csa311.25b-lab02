@@ -12,4 +12,11 @@ public class Circle implements Shape {
   public double getArea() {
     return Math.PI * radius * radius;
   }
+
+  @Override
+  public void draw() {
+    // зурах функцууд
+
+    System.out.println("Circle зурсан.\nТалбай: " + getArea());
+  }
 }
